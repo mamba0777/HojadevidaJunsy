@@ -1,0 +1,183 @@
+ <style>
+  
+        body {
+            font-family: Open Sans;
+            margin: 0;
+            padding: 0;
+            background-color: #F8F8FF;
+        }
+  
+        header, footer {
+            background-color: #ADD8E6;
+            padding: 20px;
+            text-align: center;
+        }
+  
+        header h1 {
+            margin: 0;
+        }
+  
+        section {
+            padding: 20px;
+        }
+  
+        footer p {
+            margin: 5px 0;
+        }
+    
+        .imageP {
+            display: block;
+            margin: 0 auto;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        }
+            
+        .barraSkill {
+            background-color: #FAF0E6;
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 10px;
+        }
+
+        .barraLevel {
+            background-color: #87CEFA;
+            height: 8px;
+            border-radius: 10px;
+       }
+    
+        .main {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5em;
+            align-items: center;
+       }
+
+        .up {
+            display: flex;
+            flex-direction: row;
+            gap: 0.5em;
+       }
+
+        .down {
+            display: flex;
+            flex-direction: row;
+            gap: 0.5em;
+       }
+
+        .card1 {
+            width: 90px;
+            height: 90px;
+            outline: none;
+            border: none;
+            background: white;
+            border-radius: 90px 5px 5px 5px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+            transition: .3s ease-in-out;
+       }
+
+        .instagram {
+            margin-top: 1.5em;
+            margin-left: 1.2em;
+            fill: #cc39a4;
+       }
+
+        .card2 {
+            width: 90px;
+            height: 90px;
+            outline: none;
+            border: none;
+            background: white;
+            border-radius: 5px 90px 5px 5px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+            transition: .3s ease-in-out;
+      }
+
+       .twitter {
+            margin-top: 1.5em;
+            margin-left: -.9em;
+            fill: #03A9F4;
+      }
+
+       .card3 {
+            width: 90px;
+            height: 90px;
+            outline: none;
+            border: none;
+            background: white;
+            border-radius: 5px 5px 5px 90px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+            transition: .3s ease-in-out;
+      }
+
+       .whatsapp {
+            margin-top: -.6em;
+            margin-left: 1.2em;
+            fill: #00ff00;
+      }
+
+       .card4 {
+            width: 90px;
+            height: 90px;
+            outline: none;
+            border: none;
+            background: white;
+            border-radius: 5px 5px 90px 5px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+            transition: .3s ease-in-out;
+      } 
+
+       .gmail {
+            margin-top: -.9em;
+            margin-left:-1.2em;
+            fill: #f14336;
+      }
+
+       .card1:hover {
+            cursor: pointer;
+            scale: 1.1;
+            background-color: #cc39a4;
+      }
+
+       .card1:hover .instagram {
+            fill: white;
+      }
+
+       .card2:hover {
+            cursor: pointer;
+            scale: 1.1;
+            background-color: #03A9F4;
+      }
+
+       .card2:hover .twitter {
+            fill: white;
+      }
+
+       .card3:hover {
+            cursor: pointer;
+            scale: 1.1;
+            background-color: #00ff00;
+      }
+
+       .card3:hover .whatsapp {
+            fill: white;
+      }
+
+       .card4:hover {
+            cursor: pointer;
+            scale: 1.1;
+            background-color: #ff0004;
+      }
+
+       .card4:hover .gmail {
+            fill: white;
+      }
+      
+      h2 {
+       border-bottom: 2px solid #ADD8E6;
+       padding-bottom: 10px;
+       margin-bottom: 20px;
+      }
+    </style>
+
